@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+section{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+section:nth-of-type(1){
+background-image: url(img/p1.jpg);
+height: 600px;
+
+}
+h1{
+ margin-left: 220px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+   max-width: 525px;
+    font-size: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+background:-webkit-radial-gradient( #e4e71d, #f518188a,  #fff4cc, #0c08f5, #f8f687c4 );
+background-size: 80% 105%;
+animation: degrade 15s linear infinite alternate;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+outline: none;
+}
+@keyframes degrade{
+    0%{ background-position-X: 0% ;
+   }
+100%{ background-position-x: 400%;
+}
+}
+/* TEXT -VOCÊ CURTINDO COM A FERIAS */
+section:nth-of-type(2){
+    font-size: 62px;
+    font-weight: bold;
+    text-transform: uppercase;
+background:linear-gradient(45deg, #fa5c64, #f5e93f, #ecf006, #fff4cc, #f550b5, #22f306 );
+background-size: 90% 98%;
+animation: degrade 8s linear infinite alternate;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+outline: none;
+}
+@keyframes degrade{
+    0%{ background-position-X: 0% ;
+   }
+100%{ background-position-x: 400%;
+}
+}
+
+section:nth-of-type(3){
+background-image: url(img/p2.jpg);
+height: 800px;
+max-width: 1075px;
+
+}
+
+/* text COM A FAMILIA */
+    section:nth-of-type(4){
+        font-size: 92px;
+        font-weight: bold;
+        text-transform: uppercase;
+    background:linear-gradient(45deg, #a084f5, #1af3078a, #2314ee, #fff4cc, #08edf5, #22f306 );
+    background-size: 90% 98%;
+    animation: degrade 2s linear infinite alternate;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    outline: none;
+    }
+    @keyframes degrade{
+        0%{ background-position-X: 0% ;
+       }
+    100%{ background-position-x: 400%;
+    }
+    }
+
+
+section:nth-of-type(5){
+background-image: url(img/p4.jpg);
+height: 600px;
+
+
+}
+section:nth-of-type(6){
+    font-size: 92px;
+    font-weight: bold;
+    text-transform: uppercase;
+background:linear-gradient(45deg, #e71d27, #ffee008a, #470505, #fff4cc, #f5089a, #22f306 );
+background-size: 90% 98%;
+animation: degrade 23s linear infinite alternate;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+outline: none;
+}
+@keyframes degrade{
+    0%{ background-position-X: 0% ;
+   }
+100%{ background-position-x: 400%;
+}}
+section:nth-of-type(7){
+background-image: url(img/p5.jpg);
+height: 600px;
+}
+section:nth-of-type(8){
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+background:linear-gradient(45deg,rgb(236, 165, 10) 2%, rgb(3, 53, 3) 13%, rgb(175, 216, 238) 50%, rgb(58, 22, 221) 80% );
+background-size: 85% 98%;
+animation: degrade 13s linear infinite alternate;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+outline: none;
+}
+@keyframes degrade{
+    0%{ background-position-X: 0% ;
+   }
+100%{ background-position-x: 400%;
+}
+}
+ 
+.imagem3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+
+
+
