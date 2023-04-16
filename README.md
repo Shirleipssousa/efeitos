@@ -1,1 +1,2 @@
 # efeitos 
+cokies em mensagens
